@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --tittlecolor: #E09319;
+    --textcolor:#696969;
+    --backgroundcolor: #E3E3E3;
+
+}
+
+body{
+    font-family: quicksand, sans-serif;
+    height: 80%;
+    margin: 20px 75px;
+    max-width: 100%;
+
+}
+
+#main-card{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#card-title{
+    color: var(--tittlecolor);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#card-container{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card-club{
+    list-style-type: disc;
+    padding: 10px;
+}
+
+#card-book{
+    font-weight: bold;
+    color: var(--textcolor);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
