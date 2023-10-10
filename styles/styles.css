@@ -1,2 +1,65 @@
-console.log("ok enlazado")
-"use strict";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --tittlecolor: #4A4A4A;
+    --textcolor:#696969;
+    --backgroundcolor: #E3E3E3;
+
+}
+
+body{
+    font-family: quicksand, sans-serif;
+    height: 80%;
+    margin: 20px 75px;
+    max-width: 90%;
+
+}
+#main-container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+
+#main-title{
+    color: var(--tittlecolor);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.tojoin{
+    color: var(--tittlecolor);
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+#second-container{
+    font-size: 20px;
+}
+
+#main-description{
+    padding: 20px;
+}
+
+#main-mission{
+    padding: 20px;
+}   
+
+#main-work{
+    padding: 20px;
+}
+
+.main-join{
+    list-style-type: disc;
+    padding: 10px;
+}
+
+#join{
+    font-weight: bold;
+    color: var(--textcolor);
+    padding-bottom: 15px;
+}
