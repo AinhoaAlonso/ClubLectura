@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --tittlecolor: #E09319;
+    --textcolor:#696969;
+    --backgroundcolor: #E3E3E3;
+
+}
+
+body{
+    font-family: quicksand, sans-serif;
+    /*height: 80%;*/
+    margin: 20px 75px;
+    /*max-width: 100%;*/
+
+}
+
+#main-carnets{
+    height: 200px;
+    width: 350px;
+    border-width: 5px;
+    border-color: var(--tittlecolor);
+    border-style: solid;
+    margin-top: 30px;
+}
+
+#title-container{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 90px;
+    justify-content: space-around;
+}
+
+#second-carnets{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+#data-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 140px;
+}
+#surname{
+    /*margin: 15px;*/
+}
+
+#age-container{
+    display: flex;
+    margin-left: 30px;
+}
+
+#date-container{
+    display: flex;
+    margin-left: 30px;
+}
