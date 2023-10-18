@@ -12,8 +12,8 @@
 </head>
 <body>
     <div class="cards" id="cards">
-        <h1>CARNETS GENERADOS</h1>
-        <p>A continuacón puedes ver el modelo de Carnet que tienen nuestros lectores, si tú también quieres el tuyo pulsa <a href="cardgenerator.html" target="_blank">aquí</a></p>
+        <h1 class="title" id="title">CARNETS GENERADOS</h1>
+        <p class="description-title" id="description-title">A continuación puedes ver el modelo de Carnet que tienen nuestros lectores, si tú también quieres el tuyo pulsa <a href="cardgenerator.html" target="_blank">aquí</a></p>
     </div>
     <div class="main-carnets" id="main-carnets">
         <div class="title-container" id="title-container">
@@ -22,15 +22,15 @@
             </div>
             <div class="titlecard" id="titlecard">
                 <h2>CARNET DEL LECTOR</h2>
-                <h2>RINCÓN DE LIBROS</h2>
+                <h2></h2>
             </div>
         </div>
         <div class="second-carnets" id="second-carnets">
             <div class="name" id="name">
-                <p>NOMBRE</p>
+                <p>NOMBRE:</p>
             </div>
-            <div class="surname">
-                <p>APELLIDOS</p>
+            <div class="surname" id="surname">
+                <p>APELLIDOS:</p>
             </div>
         </div>
         <div class="data-container" id="data-container">
@@ -41,12 +41,28 @@
                 <p>Alonso Sánchez</p>
             </div>
         </div>
-        <div class="age-container" id="age-container">
+        <div class="third-container" id="third-container">
             <div class="age" id="age">
-                <p>42</p>
+                <p>EDAD:</p>
             </div>
             <div class="occupation" id="occupation">
+                <p>PROFESIÓN:</p>
+            </div>
+        </div>
+        <div class="age-container" id="age-container">
+            <div class="age-number" id="age-number">
+                <p>42</p>
+            </div>
+            <div class="occupation-description" id="occupation-description">
                 <p>Informática</p>
+            </div>
+        </div>
+        <div class="fourth-container" id="fourth-container">
+            <div class="date" id="date">
+                <p>F.ALTA</p>
+            </div>
+            <div class="validity-date" id="validity-date">
+                <p>F.VALIDEZ</p>
             </div>
         </div>
         <div class="date-container" id="date-container">
@@ -58,8 +74,21 @@
             </div>
         </div>
         <div class="preferred-container" id="preferred-container">
-            <p>Lector Preferente</p>
+            <div class="preferred" id="preferred">
+                <p>Lector Preferente</p>
+            </div>
+            <form>
+                <fieldset>
+                    <label>
+                        <input type="radio" name="checkbox" value="si" id="checkboxyes" checked>SI
+                    </label>
+                    <label>
+                        <input type="radio" name="checkbox" value="no" id="checkboxno">NO
+                    </label>
+                </fieldset>
+            </form>
         </div>
     </div>
 </body>
 </html>
+

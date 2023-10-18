@@ -2,7 +2,7 @@
 
 :root{
     --tittlecolor: #E09319;
-    --textcolor:#696969;
+    --textcolor:#734B0D;
     --backgroundcolor: #E3E3E3;
 
 }
@@ -15,11 +15,24 @@ body{
 
 }
 
+#title{
+    color: var(--tittlecolor);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#description-title{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 #main-carnets{
     height: 200px;
     width: 350px;
     border-width: 5px;
     border-color: var(--tittlecolor);
+    border-radius: 25px;
     border-style: solid;
     margin-top: 30px;
 }
@@ -30,36 +43,145 @@ body{
     margin-left: 30px;
     margin-top: 15px;
     margin-bottom: 10px;
-    margin-right: 90px;
+    margin-right: 70px;
     justify-content: space-around;
+}
+
+#titlecard{
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #second-carnets{
-    font-size: 10px;
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size: 8px;
     display: flex;
     justify-content: space-around;
-    margin-left: 30px;
+    /*margin-left: 20px;*/
     margin-top: 10px;
-    margin-right: 200px;
+    margin-right: 20px;
+}
+#name{
+    margin-left: -48px;
+}
+
+#surname{
+    margin-left: -89px;
 }
 
 #data-container{
+    color: grey;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    /*margin-left: 20px;*/
+    margin-top: 2px;
+    margin-right: 20px;
+}
+#name-description{
+    margin-left: 15px;
+}
+#surname-description{
+    margin-left: 27px;
+}
+#third-container{
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size: 8px;
     display: flex;
     justify-content: space-around;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-right: 140px;
+    /*margin-left: 20px;*/
+    margin-top: 2px;
+    margin-right: 20px;
 }
-#surname{
-    /*margin: 15px;*/
+#age{
+    margin-left: -45px;
+}
+
+#occupation{
+    margin-left: -69px;
 }
 
 #age-container{
+    color: grey;
     display: flex;
-    margin-left: 30px;
+    font-size: 15px;
+    justify-content: space-around;
+    /*margin-left: 20px;*/
+    margin-top: 2px;
+    margin-right: 20px;
+}
+#age-number{
+    font-size: 12px;
+    margin-left: -13px;
+}
+#occupation-description{
+    margin-left: 4px;
+}
+
+#fourth-container{
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-around;
+    /*margin-left: 20px;*/
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+#date{
+    margin-left: -52px;
+}
+
+#validity-date{
+    margin-left: -86px;
 }
 
 #date-container{
+    color: grey;
     display: flex;
-    margin-left: 30px;
+    font-size: 15px;
+    justify-content: space-around;
+    /*margin-left: 20px;*/
+    margin-top: 2px;
+    margin-right: 20px;
+}
+#date-start{
+    font-size: 12px;
+    margin-left: -28px;
+}
+
+#date-end{
+    font-size: 12px;
+    margin-left: -73px;
+}
+
+#preferred-container{
+    color: var(--textcolor);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    /*margin-left: 49px;*/
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#preferred{
+    margin-left: -6px;
+}
+
+#checkboxyes{
+    margin-left: -83px;
+}
+
+#checkboxno{
+
+}
+
+input[type="radio"]{
+    background-color: var(--tittlecolor) !important;
 }
