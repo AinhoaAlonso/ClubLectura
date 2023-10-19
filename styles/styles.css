@@ -32,16 +32,11 @@ body{
 #tojoin{
     display: flex;
     justify-content: end;
-    /*color: var(--tittlecolor);*/
     font-size: 20px;
     font-weight: bold;
     margin-top: -300px;
     margin-left: 0px;
-    /*text-decoration: none;*/
     padding: 100px;
-}
-.tojoin{
-    
 }
 .ustojoin{
     color: var(--tittlecolor);

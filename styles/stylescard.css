@@ -4,6 +4,7 @@
     --tittlecolor: #E09319;
     --textcolor:#696969;
     --backgroundcolor: #E3E3E3;
+    --cardtextcolor:#734B0D;
 
 }
 
@@ -44,4 +45,23 @@ body{
     color: var(--textcolor);
     padding-bottom: 15px;
     padding-top: 15px;
+}
+.cardform{
+    height: 150px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 400px;
+}   
+
+input{
+    border-radius: 5px;
+    border-color: var(--tittlecolor);
+    color: var(--cardtextcolor);
+    margin-bottom: 15px;
 }

@@ -63,11 +63,11 @@ body{
     margin-top: 10px;
     margin-right: 20px;
 }
-#name{
+#namecard{
     margin-left: -48px;
 }
 
-#surname{
+#surnamecard{
     margin-left: -89px;
 }
 
@@ -96,11 +96,11 @@ body{
     margin-top: 2px;
     margin-right: 20px;
 }
-#age{
+#agecard{
     margin-left: -45px;
 }
 
-#occupation{
+#occupationcard{
     margin-left: -69px;
 }
 
@@ -132,11 +132,11 @@ body{
     margin-right: 20px;
 }
 
-#date{
+#datecard{
     margin-left: -52px;
 }
 
-#validity-date{
+#validitycard{
     margin-left: -86px;
 }
 
@@ -165,12 +165,12 @@ body{
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    /*margin-left: 49px;*/
+    margin-left: 49px;
     margin-top: 10px;
     margin-right: 20px;
 }
 
-#preferred{
+#preferredcard{
     margin-left: -6px;
 }
 

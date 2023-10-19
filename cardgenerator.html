@@ -8,7 +8,7 @@
     <title>cards Generator</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/stylescard.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/stylescarnets.css">
     <script defer src="js/script.js"></script>
 </head>
 <body>
@@ -20,7 +20,7 @@
             <h1>¡QUERIDOS AMANTES DE LA LECTURA!</h1>
         </div>
     </div>
-    <div class="card-container" id="card-container">
+    <!--<div class="card-container" id="card-container">
         <h2>Estamos emocionados de darles la bienvenida a nuestro maravilloso Club de Lectura, Rincón de Libros. Aquí en nuestro club, la pasión por los libros es lo que nos une y nos motiva a explorar nuevos mundos a través de la lectura. Sabemos que compartir esta pasión con otros amantes de los libros es una experiencia única y enriquecedora.</h2>
         <h2><br><br>Queremos hacer que su experiencia en el club sea aún más especial, y para ello, les animamos a que se unan a la familia obteniendo su propio carnet de membresía. Este carné es más que una simple tarjeta; es un símbolo de pertenencia y compromiso con la lectura y la comunidad.</h2>
         <div class="card-club">
@@ -31,11 +31,76 @@
                 <li>Registro de Lecturas: El carné puede ser tu herramienta personal para llevar un registro de las lecturas que has disfrutado en el club. Puedes anotar tus libros favoritos, hacer anotaciones y compartir recomendaciones con otros miembros.</li>
                 <li>Participación Activa: Mostrar tu carnet en las reuniones del club es una manera de demostrar tu compromiso y participación activa en nuestras actividades. Además, es una excelente conversación para romper el hielo con otros lectores apasionados.</li>
             </ol>
+        </div>-->
+        <div class="card-generator" id="card-generator">
+                <h2>¿Cómo puedes obtener tu Carnet del Club? Es muy sencillo, rellena el siguiente formulario:</h2>
         </div>
-    <div class="card-generator" id="card-generator">
-            <h2>¿Cómo puedes obtener tu Carnet del Club? Es muy sencillo, rellena el siguiente formulario:</h2>
     </div>
+    <div class="form-container" id="form-container">
+        <form action="#" method="post" class="cardform">
+            <fieldset>
+                <input type="text" name="name" id="name" required placeholder="Nombre">
+                <input type="text" name="surname" id="surname" required placeholder="Apellidos">
+                <!--<input type="number" name="age" id="age" required placeholder="Edad">
+                <input type="text" name="occupation" id="occupation" required placeholder="Profesión">
+                <input type="date" name="startdate" id="startdate">
+                <input type="date" name="validity-date" id="validity-date">
+                <input type="text" name="preferred" id="preferred">-->
+                <button type="submit" name="addcard" id="addcard">AÑADIR</button>
+            </fieldset>
+        </form>
     </div>
-    
+    <div class="carnets" id="carnets">
+        <div class="main-carnets" id="main-carnets">
+            <div class="title-container" id="title-container">
+                <div class="logocarnet" id="logocarnet">
+                    <img src="images/Logo_carnet.jpg" alt="Logo Carnet" width="50px">
+                </div>
+                <div class="titlecard" id="titlecard">
+                    <h2>CARNET DEL LECTOR</h2>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="second-carnets" id="second-carnets">
+                <div class="namecard" id="namecard">
+                    <p>NOMBRE:</p>
+                </div>
+                <div class="surnamecard" id="surnamecard">
+                    <p>APELLIDOS:</p>
+                </div>
+            </div>
+            <div class="third-container" id="third-container">
+                <div class="agecard" id="agecard">
+                    <p>EDAD:</p>
+                </div>
+                <div class="occupationcard" id="occupationcard">
+                    <p>PROFESIÓN:</p>
+                </div>
+            </div>
+            <div class="fourth-container" id="fourth-container">
+                <div class="datecard" id="datecard">
+                    <p>F.ALTA</p>
+                </div>
+                <div class="validitycard" id="validitycard">
+                    <p>F.VALIDEZ</p>
+                </div>
+            </div>
+            <!--<div class="preferred-container" id="preferred-container">
+                <div class="preferredcard" id="preferredcard">
+                    <p>Lector Preferente</p>
+                </div>
+                <form>
+                    <fieldset>
+                        <label>
+                            <input type="radio" name="checkbox" value="si" id="checkboxyes" checked>SI
+                        </label>
+                        <label>
+                            <input type="radio" name="checkbox" value="no" id="checkboxno">NO
+                        </label>
+                    </fieldset>
+                </form>
+            </div>-->
+        </div>
+    </div>
 </body>
 </html>
